@@ -16,8 +16,8 @@ Tabletop test
 
 
 
-:: Sticky note {"position":"1600,700","size":"100,100"}
-(Red) Your friend just got an awesome new internship at a security company and is showing you around her new workplace. While showing you her desk you notice a sticky note attached to her computer with what looks to be a password written on it.
+:: Red Hat (Player 1) {"position":"1600,700","size":"100,100"}
+(Red) Your friend just got an awesome new internship at a security company and is showing you around their new workplace. While showing you their desk you notice a sticky note attached to their computer with what looks to be a password written on it.
 
 <style> img {
 	max-width: 100%;
@@ -27,9 +27,30 @@ Tabletop test
 
 <img 
 src=https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fsticky-notes-a-laptop&psig=AOvVaw2267oBC5eE4psNmYLF1W2L&ust=1763845798858000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLC1mOqThJEDFQAAAAAdAAAAABAS>
-[[take a picture of it -->choice 1]]
-[[leave it --> choice2]]
+What do you do?
+{}
+[[Take a picture of it]]
+[[Leave it]]
+[[Take it]]
+[[Confront your intern friend]]
 
+:: Take a picture of it {"position":"1800,600","size":"100,100"}
 
-:: choice 1 {"position":"1800,600","size":"100,100"}
+:: Leave it {"position":"1800,600","size":"100,100"}
 
+:: Take it {"position":"1800,600","size":"100,100"}
+You take the note from the desk of your intern friend and promptly leave their office.
+{}
+[[Player 2 Start]]
+
+:: Confront your intern friend {"position":"1800,600","size":"100,100"}
+
+:: Player 2 Start{"position":"1800,600","size":"100,100"}
+You come back and sit down at your desk and noticed that in addition to your friend being gone, your sticky note with your passwords written down is missing as well.
+{}
+What do you do?
+{}
+[[Report the theft to the IT Department]]
+[[Change your password immeadiately]]
+[[Call your friend and ask about the note]]
+[[Do nothing (It will all work out...probably)]]
