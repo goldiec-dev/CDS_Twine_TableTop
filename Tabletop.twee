@@ -1,0 +1,35 @@
+:: StoryTitle
+Tabletop test
+
+
+:: StoryData
+{
+  "ifid": "9CE86F51-301E-493B-8B21-84C6A65513A5",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Sticky note",
+  "zoom": 1
+}
+
+
+:: \ choice2 {"position":"1800,800","size":"100,100"}
+
+
+
+:: Sticky note {"position":"1600,700","size":"100,100"}
+(Red) Your friend just got an awesome new internship at a security company and is showing you around her new workplace. While showing you her desk you notice a sticky note attached to her computer with what looks to be a password written on it.
+
+<style> img {
+	max-width: 100%;
+    max-height:100%;
+}
+</style>
+
+<img 
+src=https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fsticky-notes-a-laptop&psig=AOvVaw2267oBC5eE4psNmYLF1W2L&ust=1763845798858000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLC1mOqThJEDFQAAAAAdAAAAABAS>
+[[take a picture of it -->choice 1]]
+[[leave it --> choice2]]
+
+
+:: choice 1 {"position":"1800,600","size":"100,100"}
+
