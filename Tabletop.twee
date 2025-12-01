@@ -19,14 +19,10 @@ Tabletop test
 :: Red Hat (Player 1) {"position":"1600,700","size":"100,100"}
 (Red) Your friend just got an awesome new internship at a security company and is showing you around their new workplace. While showing you their desk you notice a sticky note attached to their computer with what looks to be a password written on it.
 
-<style> img {
-	max-width: 100%;
-    max-height:100%;
-}
-</style>
 
-<img 
-src=https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fsticky-notes-a-laptop&psig=AOvVaw2267oBC5eE4psNmYLF1W2L&ust=1763845798858000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLC1mOqThJEDFQAAAAAdAAAAABAS>
+<img src="https://raw.githubusercontent.com/goldiec-dev/CDS_Twine_TableTop/main/images/Sticky_note.jpg" style ="width:50%";>
+
+
 What do you do?
 {}
 [[Take a picture of it]]
