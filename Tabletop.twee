@@ -31,16 +31,16 @@ What do you do?
 [[Confront your intern friend]]
 
 :: Take a picture of it {"position":"1800,600","size":"100,100"}
-
+word
 :: Leave it {"position":"1800,600","size":"100,100"}
-
+word
 :: Take it {"position":"1800,600","size":"100,100"}
 You take the note from the desk of your intern friend and promptly leave their office.
 {}
 [[Player 2 Start]]
 
 :: Confront your intern friend {"position":"1800,600","size":"100,100"}
-
+word
 :: Player 2 Start{"position":"1800,600","size":"100,100"}
 You come back and sit down at your desk and noticed that in addition to your friend being gone, your sticky note with your passwords written down is missing as well.
 {}
