@@ -1,22 +1,51 @@
 :: StoryTitle
-Tabletop test
+PNW's Tabletop Project
 
 
 :: StoryData
 {
-  "ifid": "9CE86F51-301E-493B-8B21-84C6A65513A5",
+  "ifid": "633FA751-CB71-4AE6-A19A-D3D1621B491C",
   "format": "Harlowe",
   "format-version": "3.3.9",
-  "start": "Sticky note",
+  "start": "Red Hat (Player 1)",
   "zoom": 1
 }
 
 
-:: \ choice2 {"position":"1800,800","size":"100,100"}
+:: Call your friend and ask about the note {"position":"1400,1100","size":"100,100"}
+You decided to call up your friend who was just visiting and mysteriously disappeared before you got back from the bathroom. Your hoping that they have some sort of lead about where your password sticky note went.
+
+
+:: Change your password immeadiately {"position":"1400,900","size":"100,100"}
+The discovery of the missing note immeadiately spurs you into action and causes you to change your password right away in order to stop whatever consequences could be in order after your little mishap.
+
+
+:: Confront your intern friend {"position":"800,500","size":"100,100"}
+Instead of doing some fun shenanigans with your friend's password, you choose to the right thing and tell them that it probably isn't a super great idea to leave their company password sticky noted to their laptop.
+
+
+:: Do nothing (It will all work out...probably) {"position":"1400,1400","size":"100,100"}
+After worrying about the missing note for all of two seconds, you decided to get back to work and ignore the issue entirely. After all, out of sight - out of mind right?
+
+
+:: Leave it {"position":"800,200","size":"100,100"}
+You choose to do nothing about the note leaving it where it is and not mentioning it to your friend.
 
 
 
-:: Red Hat (Player 1) {"position":"1600,700","size":"100,100"}
+
+:: Player 2 Start {"position":"1000,1000","size":"100,100"}
+You come back and sit down at your desk and noticed that in addition to your friend being gone, your sticky note with your passwords written down is missing as well.
+{}
+What do you do?
+{}
+[[Report the theft to the IT Department]]
+[[Change your password immeadiately]]
+[[Call your friend and ask about the note]]
+[[Do nothing (It will all work out...probably)]]
+
+
+:: Red Hat (Player 1) {"position":"600,525","size":"100,100"}
 (Red) Your friend just got an awesome new internship at a security company and is showing you around their new workplace. While showing you their desk you notice a sticky note attached to their computer with what looks to be a password written on it.
 {}
 <div class="centered-image">
@@ -30,23 +59,29 @@ What do you do?
 [[Take it]]
 [[Confront your intern friend]]
 
-:: Take a picture of it {"position":"1800,600","size":"100,100"}
-word
-:: Leave it {"position":"1800,600","size":"100,100"}
-word
-:: Take it {"position":"1800,600","size":"100,100"}
+
+:: Report the theft to the IT Department {"position":"1400,600","size":"100,100"}
+You immeadiately freak out, due to not wanting to get fired, you contact the IT department to report the problem of the missing note.
+
+
+:: Take a picture of it {"position":"800,700","size":"100,100"}
+You decided that you are too tired to cause some mayhem right at that moment so you snap a picture of it to cause some problems later.
+
+
+:: Take it {"position":"800,1000","size":"100,100"}
 You take the note from the desk of your intern friend and promptly leave their office.
 {}
 [[Player 2 Start]]
 
-:: Confront your intern friend {"position":"1800,600","size":"100,100"}
-word
-:: Player 2 Start{"position":"1800,600","size":"100,100"}
-You come back and sit down at your desk and noticed that in addition to your friend being gone, your sticky note with your passwords written down is missing as well.
-{}
-What do you do?
-{}
-[[Report the theft to the IT Department]]
-[[Change your password immeadiately]]
-[[Call your friend and ask about the note]]
-[[Do nothing (It will all work out...probably)]]
+
+:: StoryStylesheet [stylesheet]
+.passage img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered-image {
+	display: block;
+  	text-align: center;
+}
