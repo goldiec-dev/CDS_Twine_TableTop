@@ -24,8 +24,47 @@ The discovery of the missing note immeadiately spurs you into action and causes 
 Instead of doing some fun shenanigans with your friend's password, you choose to do the right thing and tell them that it probably isn't a super great idea to leave their company password sticky noted to their laptop.
 
 
+:: Dismiss alert {"position":"600,1600","size":"100,100"}
+You decide that this is probably nothing as the login is from the new intern's account and they are probably login in from home for the first time. As a result you decide to fully dismiss the alert and go back to scroll on Instagram on your phone.
+{}
+[[Undetected Breach]]
+
+
 :: Do nothing (It will all work out...probably) {"position":"1400,1400","size":"100,100"}
 After worrying about the missing note for all of two seconds, you decided to get back to work and ignore the issue entirely. After all, out of sight - out of mind right?
+
+
+:: Give it back & explain the risk {"position":"1000,1200","size":"100,100"}
+
+
+
+:: IT Department Start {"position":"500,1400","size":"100,100"}
+You are scrolling on your phone, bored, as nothing has been happening at work especially since it is after hours and most employess have logged off for the days. When suddenly a notification pops up on your alerts hub. You look at the new alert and it indicates that a new login has been initiated from a new IP address.
+{}
+How do you respond to this new alert?
+{}
+[[Investigate alert immeadiately]]
+[[Mark alert low priority]]
+[[Dismiss alert]]
+
+
+:: Intern Start {"position":"325,1975","size":"100,100"}
+
+
+
+:: Investigate alert immeadiately {"position":"200,1600","size":"100,100"}
+You decide that this is a pretty suspicious login as it comes from the new intern's account and interns are typically allowed to work from home. You look more close into the alert that confrims your suspicions.
+{}
+Now that you understand the alert, what do you do next?
+{}
+[[Lock account & notify Upper Management ->Upper Management Start]]
+[[Monitor account further]]
+[[Reset password & inform the Intern ->Intern Start]]
+
+
+
+:: Keep it, but do nothing {"position":"600,1200","size":"100,100"}
+
 
 
 :: Leave it {"position":"800,200","size":"100,100"}
@@ -34,7 +73,21 @@ You choose to do nothing about the note leaving it where it is and not mentionin
 
 
 
-:: Player 2 Start {"position":"1000,1000","size":"100,100"}
+:: Log out and inform your friend {"position":"900,1400","size":"100,100"}
+
+
+
+:: Mark alert low priority {"position":"400,1600","size":"100,100"}
+You decide that this alert probably isn't that serious and mark it as low priority and go back to check some of the other alerts that came in around the same time.
+{}
+[[Slow Response]]
+
+
+:: Monitor account further {"position":"0,1700","size":"100,100"}
+You decide that the intern or whoever is using the account has actually done anything bad yet so 
+
+
+:: Player 2 Start {"position":"1000,500","size":"100,100"}
 You come back and sit down at your desk and noticed that in addition to your friend being gone, your sticky note with your passwords written down is missing as well.
 {}
 What do you do?
@@ -64,14 +117,53 @@ What do you do?
 You immeadiately freak out, due to not wanting to get fired, you contact the IT department to report the problem of the missing note.
 
 
-:: Take a picture of it {"position":"800,700","size":"100,100"}
-You decided that you are too tired to cause some mayhem right at that moment so you snap a picture of it to cause some problems later.
-
-
-:: Take it {"position":"800,1000","size":"100,100"}
-You take the note from the desk of your intern friend and promptly leave their office.
+:: Slow Response {"position":"300,1800","size":"100,100"}
+The IT Department marks the alert as low priority.
 {}
-[[Player 2 Start]]
+Due to this negligence, the breah continues unnoticed, allowing more damages to inccur. Upon finding out about this upper management is beyond frustrated by the delay and begins to question why they have an IT department to begin with.
+{}
+Your group got the Slow Response Ending. Better stop all that phone scrolling and pay attention to your alerts
+{}
+[[Go back to the Start ->Red Hat (Player 1)]] 
+
+
+:: Take a picture of it {"position":"800,700","size":"100,100"}
+
+
+
+:: Take it {"position":"600,1000","size":"100,100"}
+You grab the note off of your friend's laptop and look it over as you decide what to do next.
+{}
+What do you do with the super secure password sticky note?
+{}
+[[Use the password later]]
+[[Give it back & explain the risk]]
+[[Keep it, but do nothing]]
+
+
+:: Undetected Breach {"position":"600,1800","size":"100,100"}
+The IT department marks the login alert as a false positive. This allows the unauthoritized access to go undetected resulting in the user (Player 1) to wreck mayhem on the company's system and leading to a serious data breach.
+{}
+Your group got the Undetected Breach ending. Always investigate those suspicious alerts, you never know.
+{}
+[[Return to Start ->Red Hat (Player 1)]] 
+
+
+:: Upper Management Start {"position":"100,1900","size":"100,100"}
+
+
+
+:: Use the password later {"position":"800,1200","size":"100,100"}
+You decided to keep the sticky note with your friend's password but you decide that you are too tired to cause some mayhem right at that moment and stuff it in your pocket to use later.
+{}
+Later that night you decide to finally use the password to login into the company's system and you successfully get in. You feel like a hacker from those cool action movies.
+{}
+What do you with your access to the system?
+{}
+[[Browse out of curiosity ->IT Department Start]]
+[[Access sensitive files ->IT Department Start]]
+[[Plant a harmless "joke" file ->IT Department Start]]
+[[Log out and inform your friend]]
 
 
 :: StoryStylesheet [stylesheet]
