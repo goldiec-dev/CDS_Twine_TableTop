@@ -12,54 +12,148 @@ PNW's Tabletop Project
 }
 
 
+:: Am I in Trouble? {"position":"2300,1900","size":"100,100"}
+Intern (Player 2) Start
+{}
+
+
+
+:: Assume the intern is lying & escalate disciplinary action {"position":"1725,1625","size":"100,100"}
+''Intern (Player 2) Start''
+{}
+You are peaceful working after letting your supervisor about what happened, feeling pretty good that the whole situation will soon be behind you when your supervisor comes back around. They inform you that the IT Department is not impressed with your little story about this made up friend of yours and that your actions have landed you on probation from work. 
+{}
+How do you react to this news?
+{}
+[[Accept your punishment & vow to change your security practices ->Compliance]]
+[[Look for new job ->Exit]]
+[[Leak policy voliations to the media outlets ->Retalition]]
+
+
+:: Blame your friend {"position":"1725,1250","size":"100,100"}
+You decide that the best course of action is to blame your friend for the whole incident. You go and tell your supervisor that the friend brought with youto work is to blame for the whole incident.
+{}
+[[Conflict]]
+
+
 :: Call your friend and ask about the note {"position":"1400,1100","size":"100,100"}
 You decided to call up your friend who was just visiting and mysteriously disappeared before you got back from the bathroom. Your hoping that they have some sort of lead about where your password sticky note went.
+
+
+:: Cancel Training {"position":"1850,2000","size":"100,100"}
+Upper management looks over the proposal, and it seems good so far, huh we might need this program...it costs how?!?!?! After looking at the cost of the training, upper management decides that this too much money and probably wouldn't even work anyways. Due to lack of training employees continue to be risks to the company.
+{}
+Your group got the Cancel Training ending. Besides who needs formal training after all, it will all work out anyways.
+{}
+[[Return to Start ->Red Hat (Player 1)]]
+
+
+:: Change your password & tell no one {"position":"1975,1250","size":"100,100"}
+You decided to tell no one that this happen out of sheer embrassment, but also figure you should change your password in case your friend loses your sticky note or decides to be malicious again.
+{}
+[[HR Unaware]]
 
 
 :: Change your password immeadiately {"position":"1400,900","size":"100,100"}
 The discovery of the missing note immeadiately spurs you into action and causes you to change your password right away in order to stop whatever consequences could be in order after your little mishap.
 
 
+:: Commend the intern & close the case {"position":"1850,1625","size":"100,100"}
+''Upper Management (Player 4) Start''
+{}
+The IT department upon hearing that the intern was honest enough to come forward with this embrassing lapse in judgement, praises them stating it was better that they came clean than kept it a secret. IT sees this as an opportunity to lobby for the training program they have been wanting to implement and comes to you for approval.
+{}
+How do you respond?
+{}
+[[Approve a budget for the prograam ->Training Budget]]
+[[Delegate training to HR with no budget ->HR Training]]
+[[Deny the request ->Cancel Training]]
+
+
+:: Compliance {"position":"1500,1800","size":"100,100"}
+While it does hurt the intern that the IT department thought they were lying, they graciously accept their probation and take the time to learn better security practices in order to gain trust back from their supervisor and IT.
+{}
+Your group got the Compliance ending. The security practice training arc to end all security practice training arcs, way to go you!
+{}
+[[Return to Start ->Red Hat (Player 1)]]
+
+
+:: Conflict {"position":"1725,1375","size":"100,100"}
+The intern blames their friend with the red hat for all the trouble and trying to compromise. An HR investigation ensues causing tension and mistrust within the workplace on how could be the next employee to throw someone else under the bus.
+{}
+Your group got the Conflict ending. Everyone is at each other's throats now in the office, everyday is now like a cheesy high school drama movie.
+{}
+[[Return to Start ->Red Hat (Player 1)]]
+
+
 :: Confront your intern friend {"position":"800,500","size":"100,100"}
 Instead of doing some fun shenanigans with your friend's password, you choose to do the right thing and tell them that it probably isn't a super great idea to leave their company password sticky noted to their laptop.
 
 
-:: Dismiss alert {"position":"600,1600","size":"100,100"}
+:: Data Loss {"position":"825,1925","size":"100,100"}
+The IT department decides to monitor the account further before taking an actions. Unfortunately, a high priority alert comes in that takes up the IT team's time, allowing for the attacker to exfiltrate sensitive company data. Upper management is fuming about the lack of decisive defeensive action.
+{}
+Your group got the Data Loss ending. Sometimes a decisive decision is better than no decision at all.
+{}
+[[Return to Start ->Red Hat (Player 1)]] 
+
+
+:: Dismiss alert {"position":"1375,1475","size":"100,100"}
 You decide that this is probably nothing as the login is from the new intern's account and they are probably login in from home for the first time. As a result you decide to fully dismiss the alert and go back to scroll on Instagram on your phone.
 {}
 [[Undetected Breach]]
 
 
-:: Do nothing (It will all work out...probably) {"position":"1400,1400","size":"100,100"}
+:: Do nothing (It will all work out...probably) {"position":"2050,1050","size":"100,100"}
 After worrying about the missing note for all of two seconds, you decided to get back to work and ignore the issue entirely. After all, out of sight - out of mind right?
+
+
+:: Downplay & quietly contain the breach {"position":"2600,2000","size":"100,100"}
+You decide that you don't want it getting out that your company was subject of an attack especially from an intern who are suppose to be the cream of the crop. You instruct your IT department to simply contain the breach and make no report of the incident.
+{}
+[[Legal Liability]]
+
+
+:: Exit {"position":"1600,1800","size":"100,100"}
+Hurt and dejected the intern is put on probation, feeling betrayed because they really were telling the truth if only they checked the security footage from that day, their story would be confirmed. The intern decides that their reputation here is ruined and resigns within the week in order to look for a new job. The company really loses out as the intern was really good at their job.
+{}
+Your team got the Exit ending. Aw, poor intern if only the IT department put a little more thought in the investigation process.
+{}
+[[Return to Start ->Red Hat (Player 1)]]
+
+
+:: Full investigation & contact legal counsel {"position":"2500,2000","size":"100,100"}
+
 
 
 :: Give it back & explain the risk {"position":"1000,1200","size":"100,100"}
 
 
 
-:: IT Department Start {"position":"500,1400","size":"100,100"}
-You are scrolling on your phone, bored, as nothing has been happening at work especially since it is after hours and most employess have logged off for the days. When suddenly a notification pops up on your alerts hub. You look at the new alert and it indicates that a new login has been initiated from a new IP address.
+:: HR Training {"position":"1850,1875","size":"100,100"}
+Upper management looks over the proposed training program and decides that while it is a good idea, it could probably just rolled into HR's responsibilities. Upper management tells HR to conduct training but doesn't give them a proper budget either. HR tries their best to work with what they can but the training is just too incosistent because of these factors to be effective.
 {}
-How do you respond to this new alert?
+Your group got the HR Training ending. Everyone wants training but no one want to give the time, money, or effort...sigh...typical.
 {}
-[[Investigate alert immeadiately]]
-[[Mark alert low priority]]
-[[Dismiss alert]]
+[[Return to Start ->Red Hat (Player 1)]]
 
 
-:: Intern Start {"position":"325,1975","size":"100,100"}
+:: HR Unaware {"position":"2150,1250","size":"100,100"}
+The intern changes their password for the company account and tells absolutely no one about the incident of the missing sticky note and their friend with the red hat. HR was never alerted about the policy breach and the incident leaves many systemic issues unresolved.
+{}
+Your group got the HR Unaware ending, the poor HR departmant is going to be SCRAMBLING if they ever find out about this, oh boy let the chaos ensue.
+{}
+[[Return to Start ->Red Hat (Player 1)]]
 
 
-
-:: Investigate alert immeadiately {"position":"200,1600","size":"100,100"}
+:: Investigate alert immeadiately {"position":"2350,1650","size":"100,100"}
 You decide that this is a pretty suspicious login as it comes from the new intern's account and interns are typically allowed to work from home. You look more close into the alert that confrims your suspicions.
 {}
 Now that you understand the alert, what do you do next?
 {}
-[[Lock account & notify Upper Management ->Upper Management Start]]
+[[Upper Management Start ->What does IT want?]]
 [[Monitor account further]]
-[[Reset password & inform the Intern ->Intern Start]]
+[[Reset password & inform the Intern ->Am I in Trouble?]]
 
 
 
@@ -73,18 +167,30 @@ You choose to do nothing about the note leaving it where it is and not mentionin
 
 
 
-:: Log out and inform your friend {"position":"900,1400","size":"100,100"}
+:: Legal Liability {"position":"2700,2100","size":"100,100"}
+The upper management decide to simply downplay the breach as an everyday occurence. With upper management, the IT department moves to try and quietly contain the situation. Unfortunately the spotty cover-up job is discovered and legal liability for the company increases.
+{}
+Your group got the Legal Liability ending. Maybe an elobrate cover-up story for an account breach wasn't the greatest idea after all, who knew.
+{}
+[[Return to Start ->Red Hat (Player 1)]]
 
 
+:: Log out and inform your friend {"position":"1850,1000","size":"100,100"}
+After logging in and staring at the internal employee dashboard for a bit, guilty starts to overcome you as you realize this probably wasn't a great idea after all since your friend could get in major trouble because of your childish shenigans. You quickly login out and grab your phone in order to contact your friend and tell what you have done.
+{}
+[[Player 2 Start ->The Call]] 
 
-:: Mark alert low priority {"position":"400,1600","size":"100,100"}
+
+:: Mark alert low priority {"position":"2050,1375","size":"100,100"}
 You decide that this alert probably isn't that serious and mark it as low priority and go back to check some of the other alerts that came in around the same time.
 {}
 [[Slow Response]]
 
 
-:: Monitor account further {"position":"0,1700","size":"100,100"}
-You decide that the intern or whoever is using the account has actually done anything bad yet so 
+:: Monitor account further {"position":"825,1800","size":"100,100"}
+You decide that the intern or whoever is using the account has actually done anything bad yet so you choose just to keep an eye on for now and are ready to take any accounts neccesary in the event something does happen.
+{}
+[[Data Loss]]
 
 
 :: Player 2 Start {"position":"1000,500","size":"100,100"}
@@ -98,8 +204,18 @@ What do you do?
 [[Do nothing (It will all work out...probably)]]
 
 
-:: Red Hat (Player 1) {"position":"600,525","size":"100,100"}
-(Red) Your friend just got an awesome new internship at a security company and is showing you around their new workplace. While showing you their desk you notice a sticky note attached to their computer with what looks to be a password written on it.
+:: Publie Memo {"position":"1950,1925","size":"100,100"}
+Upper management decides that the intern's friend is going to used as an example for anyone that thinks they are above the company's policy. Upper management sends out a strongly worded email that gives the other employees a pretty basic rundown of the situation that recently occur with one clear message echoed throughout: policy violations like this will not be tolerated.
+{}
+Your group got the Public Memo ending. Company memo emails are scarier but security violations are even scarier.
+{}
+[[Return to Start ->Red Hat (Player 1)]]
+
+
+:: Red Hat (Player 1) {"position":"2775,575","size":"100,100"}
+''Friend with Red Hat (Player 1) Start''
+{}
+Your friend just got an awesome new internship at a security company and is showing you around their new workplace. While showing you their desk you notice a sticky note attached to their computer with what looks to be a password written on it.
 {}
 <div class="centered-image">
 <img src="https://raw.githubusercontent.com/goldiec-dev/CDS_Twine_TableTop/main/images/Sticky_note.jpg" style ="width:50%";>
@@ -113,11 +229,47 @@ What do you do?
 [[Confront your intern friend]]
 
 
+:: Report the incident to you supervisor {"position":"1850,1250","size":"100,100"}
+You decide to come clean and tell your supervisor what happened. You explain the whole situation with your password note, your friend stealing the note and logging into your company dashboard. You are embrassed but you feel good that you did the right thing and let someone above you know about the issue.
+{}
+[[The Big Bad IT Department]]
+
+
 :: Report the theft to the IT Department {"position":"1400,600","size":"100,100"}
 You immeadiately freak out, due to not wanting to get fired, you contact the IT department to report the problem of the missing note.
 
 
-:: Slow Response {"position":"300,1800","size":"100,100"}
+:: Retalition {"position":"1400,1800","size":"100,100"}
+HOW DARE THEY!!! The intern came clean about what happened with the whole sticky note and their firend stealing it, and even about them logging into their work account.
+{}
+The intern decides if they are going down then the company is coming down with them. They leak some of the company's policy violations to local and national press. THe news makes headlines damaging the company's reputation, losing them many loyal and new customers.
+{}
+Your group got the Retalition ending. What a brillant blaze of glory, hopefully it doesn't affect your job chances in the future!
+{}
+[[Return to Start ->Red Hat (Player 1)]]
+
+
+:: Review security fooatge & interview the involved parties {"position":"1975,1625","size":"100,100"}
+''Upper Management (Player 4) Start''
+{}
+After reviewing the security footage, the IT department is able to determine that the intern was in fact not lying and their friend was caught on their 4k security cameras taking the note off of intern's laptop. Upon hearing this you have both parties brought in for questioning and after you ban the intern's friend from ever stepping foot in the office ever again. The IT and HR departments now want to know how they should proceed with this incident and look at you for orders.
+{}
+How do you choose to handle the situation?
+{}
+[[Use it as an example ->Publie Memo]]
+[[Handle silently ->Silent HR]]
+[[Update physical security policies ->Security Update]]
+
+
+:: Security Update {"position":"1975,2125","size":"100,100"}
+
+
+
+:: Silent HR {"position":"2100,2000","size":"100,100"}
+
+
+
+:: Slow Response {"position":"3175,1375","size":"100,100"}
 The IT Department marks the alert as low priority.
 {}
 Due to this negligence, the breah continues unnoticed, allowing more damages to inccur. Upon finding out about this upper management is beyond frustrated by the delay and begins to question why they have an IT department to begin with.
@@ -125,6 +277,10 @@ Due to this negligence, the breah continues unnoticed, allowing more damages to 
 Your group got the Slow Response Ending. Better stop all that phone scrolling and pay attention to your alerts
 {}
 [[Go back to the Start ->Red Hat (Player 1)]] 
+
+
+:: Suspend the Intern & hold them responsible {"position":"2400,2000","size":"100,100"}
+
 
 
 :: Take a picture of it {"position":"800,700","size":"100,100"}
@@ -141,16 +297,58 @@ What do you do with the super secure password sticky note?
 [[Keep it, but do nothing]]
 
 
-:: Undetected Breach {"position":"600,1800","size":"100,100"}
+:: The Big Bad IT Department {"position":"1850,1500","size":"100,100"}
+''IT Department (Player 3) Start''
+{}
+One of the supervisors for the interns comes forward that one of the interns had an incident and their password sticky note (who even does that) stolen off of their laptop. They explain that the person who stole the note logged into the internal comapny dashboard but didn't do anything and came clean about the whole to intern who in turn told their supervisor. 
+{}
+How do you respond to this information about this password breach?
+{}
+[[Commend the intern & close the case]]
+[[Review security fooatge & interview the involved parties]]
+[[Assume the intern is lying & escalate disciplinary action]]
+
+
+:: The Call {"position":"1850,1125","size":"100,100"}
+''Intern (Player 2) Start''
+{}
+You are hanging out at home when you recieve a call from your friend with the red hat that visited your office earlier that day. You pick up and they proceed to tell you that they stole your super important sticky note with your login credentials written on. You are appealed and hurt that your friend did this to you but forgive your friend since they had the heart to come clean.
+{}
+ The next day at work, you nervously enter the building and realize you have to make a decision on how to handle the situation moving forward.
+{}
+What do you do?
+{}
+[[Report the incident to you supervisor]]
+[[Change your password & tell no one]]
+[[Blame your friend]]
+
+
+:: The Suspicious Alert {"position":"500,1400","size":"100,100"}
+''IT Department (Player 3) Start''
+{}
+You are scrolling on your phone, bored, as nothing has been happening at work especially since it is after hours and most employess have logged off for the days. When suddenly a notification pops up on your alerts hub. You look at the new alert and it indicates that a new login has been initiated from a new IP address.
+{}
+How do you respond to this new alert?
+{}
+[[Investigate alert immeadiately]]
+[[Mark alert low priority]]
+[[Dismiss alert]]
+
+
+:: Training Budget {"position":"1850,1750","size":"100,100"}
+Upper Management looks over the IT department's proposal and is convinced that this is the best course of action going forward to help mitigate situations like the intern's from happening again. A budget is approved and the training program created and implemented, teaching employees all the best practices for keeping the company safe.
+{}
+Your group got the Training Budget ending. You get training, you get training, everyone gets training.
+{}
+[[Return to Start ->Red Hat (Player 1)]]
+
+
+:: Undetected Breach {"position":"1500,1500","size":"100,100"}
 The IT department marks the login alert as a false positive. This allows the unauthoritized access to go undetected resulting in the user (Player 1) to wreck mayhem on the company's system and leading to a serious data breach.
 {}
 Your group got the Undetected Breach ending. Always investigate those suspicious alerts, you never know.
 {}
 [[Return to Start ->Red Hat (Player 1)]] 
-
-
-:: Upper Management Start {"position":"100,1900","size":"100,100"}
-
 
 
 :: Use the password later {"position":"800,1200","size":"100,100"}
@@ -160,10 +358,22 @@ Later that night you decide to finally use the password to login into the compan
 {}
 What do you with your access to the system?
 {}
-[[Browse out of curiosity ->IT Department Start]]
-[[Access sensitive files ->IT Department Start]]
-[[Plant a harmless "joke" file ->IT Department Start]]
+[[Browse out of curiosity ->The Suspicious Alert]]
+[[Access sensitive files ->The Suspicious Alert]]
+[[Plant a harmless "joke" file ->The Suspicious Alert]]
 [[Log out and inform your friend]]
+
+
+:: What does IT want? {"position":"2500,1800","size":"100,100"}
+''Upper Management (Player 4) Start''
+{}
+You recieve a message from one of the members of the IT department team. You open the message and they inform you about a suspicious account login from the new intern's account and that they have locked the account for now. They ask you where they should take the incident from here.
+{}
+How will you respond to this news?
+{}
+[[Full investigation & contact legal counsel]]
+[[Downplay & quietly contain the breach]]
+[[Suspend the Intern & hold them responsible]]
 
 
 :: StoryStylesheet [stylesheet]
@@ -176,4 +386,19 @@ What do you with your access to the system?
 .centered-image {
 	display: block;
   	text-align: center;
+}
+
+body {
+  background-image: url("https://raw.githubusercontent.com/goldiec-dev/CDS_Twine_TableTop/main/images/office1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+}
+tw-story {
+  background: rgba(0,0,0,0.55);
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+  max-width: 1000px;
 }
