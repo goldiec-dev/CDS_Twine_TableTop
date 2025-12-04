@@ -12,13 +12,15 @@ PNW's Tabletop Project
 }
 
 
-:: Am I in Trouble? {"position":"2400,1900","size":"100,100"}
+:: Am I in Trouble? {"position":"4575,2825","size":"100,100"}
 ''Intern (Player 2) Start''
 {}
 You are peacefully going about your work day when you get an email notification. You decide to check it out and it is from the IT Department (uh oh). 
+{}
+[[DP 11]]
 
 
-:: Blame Intern {"position":"2500,2200","size":"100,100"}
+:: Blame Intern {"position":"4675,3025","size":"100,100"}
 Under pressure and not wanting to do a full investigation for something as trivial as this, upper management decides on the next best decision, fire the intern as a scapegoat for this situation. The intern is quickly shown the door within hours of the order. Nothing besides the intern's desk changes within the company.
 {}
 Your group got the Blame Intern ending. Wow, just wow, what did poor little intern do to you...don't actually answer that, we know what they did.
@@ -26,17 +28,13 @@ Your group got the Blame Intern ending. Wow, just wow, what did poor little inte
 [[Return to Start ->The Sticky Note]]
 
 
-:: Blame your friend {"position":"1725,1250","size":"100,100"}
+:: Blame your friend {"position":"1750,2275","size":"100,100"}
 You decide that the best course of action is to blame your friend for the whole incident. You go and tell your supervisor that the friend brought with you to work is to blame for the whole incident.
 {}
 [[Conflict]]
 
 
-:: Call your friend and ask about the note {"position":"1400,1100","size":"100,100"}
-You decided to call up your friend who was just visiting and mysteriously disappeared before you got back from the bathroom. Your hoping that they have some sort of lead about where your password sticky note went.
-
-
-:: Cancel Training {"position":"1850,2000","size":"100,100"}
+:: Cancel Training {"position":"2850,2750","size":"100,100"}
 Upper management looks over the proposal, and it seems good so far, huh we might need this program...it costs how?!?!?! After looking at the cost of the training, upper management decides that this too much money and probably wouldn't even work anyways. Due to lack of training employees continue to be risks to the company.
 {}
 Your group got the Cancel Training ending. Besides who needs formal training after all, it will all work out anyways.
@@ -44,17 +42,13 @@ Your group got the Cancel Training ending. Besides who needs formal training aft
 [[Return to Start ->The Sticky Note]]
 
 
-:: Change your password & tell no one {"position":"2000,1200","size":"100,100"}
+:: Change your password & tell no one {"position":"2025,2225","size":"100,100"}
 You decided to tell no one that this happen out of sheer embrassment, but also figure you should change your password in case your friend loses your sticky note or decides to be malicious again.
 {}
 [[HR Unaware]]
 
 
-:: Change your password immeadiately {"position":"1400,900","size":"100,100"}
-The discovery of the missing note immeadiately spurs you into action and causes you to change your password right away in order to stop whatever consequences could be in order after your little mishap.
-
-
-:: Commend the intern & close the case {"position":"1850,1625","size":"100,100"}
+:: Commend the intern & close the case {"position":"2850,2375","size":"100,100"}
 ''Upper Management (Player 4) Start''
 {}
 The IT department upon hearing that the intern was honest enough to come forward with this embrassing lapse in judgement, praises them stating it was better that they came clean than kept it a secret. IT sees this as an opportunity to lobby for the training program they have been wanting to implement and comes to you for approval.
@@ -66,7 +60,7 @@ How do you respond?
 [[Deny the request ->Cancel Training]]
 
 
-:: Compliance {"position":"2000,2500","size":"100,100"}
+:: Compliance {"position":"3000,3250","size":"100,100"}
 While it does hurt the intern that the IT department thought they were lying, they graciously accept their probation and take the time to learn better security practices in order to gain trust back from their supervisor and IT.
 {}
 Your group got the Compliance ending. The security practice training arc to end all security practice training arcs, way to go you!
@@ -74,7 +68,7 @@ Your group got the Compliance ending. The security practice training arc to end 
 [[Return to Start ->The Sticky Note]]
 
 
-:: Conflict {"position":"1475,1425","size":"100,100"}
+:: Conflict {"position":"1500,2450","size":"100,100"}
 The intern blames their friend with the red hat for all the trouble and trying to compromise. An HR investigation ensues causing tension and mistrust within the workplace on how could be the next employee to throw someone else under the bus.
 {}
 Your group got the Conflict ending. Everyone is at each other's throats now in the office, everyday is now like a cheesy high school drama movie.
@@ -82,11 +76,15 @@ Your group got the Conflict ending. Everyone is at each other's throats now in t
 [[Return to Start ->The Sticky Note]]
 
 
-:: Confront your intern friend {"position":"800,500","size":"100,100"}
-Instead of doing some fun shenanigans with your friend's password, you choose to do the right thing and tell them that it probably isn't a super great idea to leave their company password sticky noted to their laptop.
+:: Contact the intern, and re-train them {"position":"1025,1025","size":"100,100"}
 
 
-:: Data Loss {"position":"2200,2000","size":"100,100"}
+
+:: DP 11 {"position":"1200,800","size":"100,100"}
+
+
+
+:: Data Loss {"position":"4375,2825","size":"100,100"}
 The IT department decides to monitor the account further before taking an actions. Unfortunately, a high priority alert comes in that takes up the IT team's time, allowing for the attacker to exfiltrate sensitive company data. Upper management is fuming about the lack of decisive defeensive action.
 {}
 Your group got the Data Loss ending. Sometimes a decisive decision is better than no decision at all.
@@ -94,23 +92,17 @@ Your group got the Data Loss ending. Sometimes a decisive decision is better tha
 [[Return to Start ->The Sticky Note]] 
 
 
-:: Dismiss alert {"position":"700,1600","size":"100,100"}
-You decide that this is probably nothing as the login is from the new intern's account and they are probably login in from home for the first time. As a result you decide to fully dismiss the alert and go back to scroll on Instagram on your phone.
-{}
-[[Undetected Breach]]
+:: Delete it {"position":"500,700","size":"100,100"}
 
 
-:: Do nothing (It will all work out...probably) {"position":"2050,1050","size":"100,100"}
-After worrying about the missing note for all of two seconds, you decided to get back to work and ignore the issue entirely. After all, out of sight - out of mind right?
 
-
-:: Downplay & quietly contain the breach {"position":"2700,2000","size":"100,100"}
+:: Downplay & quietly contain the breach {"position":"4875,2825","size":"100,100"}
 You decide that you don't want it getting out that your company was subject of an attack especially from an intern who are suppose to be the cream of the crop. You instruct your IT department to simply contain the breach and make no report of the incident.
 {}
 [[Legal Liability]]
 
 
-:: Exit {"position":"2100,2500","size":"100,100"}
+:: Exit {"position":"4275,3325","size":"100,100"}
 Hurt and dejected the intern is put on probation, feeling betrayed because they really were telling the truth if only they checked the security footage from that day, their story would be confirmed. The intern decides that their reputation here is ruined and resigns within the week in order to look for a new job. The company really loses out as the intern was really good at their job.
 {}
 Your team got the Exit ending. Aw, poor intern if only the IT department put a little more thought in the investigation process.
@@ -118,7 +110,7 @@ Your team got the Exit ending. Aw, poor intern if only the IT department put a l
 [[Return to Start ->The Sticky Note]]
 
 
-:: External Consultant {"position":"2700,2200","size":"100,100"}
+:: External Consultant {"position":"4875,3025","size":"100,100"}
 Upper management decides that this investigation has to be done right and goes with Daniel, Dan, and Danny (DDD) Cyber Solutions to investigate the situation. DDD Cyber Solutions helps the company understand what happened and how to prevent it in the future, even offering more extensive. How fascinating and insightful!
 {}
 Your group got the External Consultant ending. High, low, whereever you may go, Dan, Daniel, and Danny Cyber Solutions is the way to go for all your cybersecurity needs.
@@ -126,7 +118,7 @@ Your group got the External Consultant ending. High, low, whereever you may go, 
 [[Return to Start ->The Sticky Note]]
 
 
-:: Full investigation & contact legal counsel {"position":"2600,2000","size":"100,100"}
+:: Full investigation & contact legal counsel {"position":"4775,2825","size":"100,100"}
 You decide that the best course of action in this situation is to launch a full blown investigation into this incident in order to stop it at the source.
 {}
 How do you do choose to proceed?
@@ -134,6 +126,14 @@ How do you do choose to proceed?
 [[Hire an external consultant ->External Consultant]]
 [[Rely on the company's legal & IT teams ->Internal Team]]
 [[Fire the intern in an accountability display->Blame Intern]]
+
+
+:: General Warning {"position":"775,1025","size":"100,100"}
+After dealing with the risk posed by the password leak, the IT department sends out a company-wide bulletin that addresses the situation without explicitly naming names. The intern know this has to do with them and learns to be a little more careful but the real cause is never tackled.
+{}
+Your group got the General Warning ending. IT isn't mad, just disappointed.
+{}
+[[Return to Start ->The Sticky Note]]
 
 
 :: Give it back & explain the risk {"position":"1000,1200","size":"100,100"}
@@ -148,7 +148,7 @@ How do you react to your friends advice?
 [[Blame your friend? ->Conflict]] 
 
 
-:: HR Training {"position":"1850,1875","size":"100,100"}
+:: HR Training {"position":"2850,2625","size":"100,100"}
 Upper management looks over the proposed training program and decides that while it is a good idea, it could probably just rolled into HR's responsibilities. Upper management tells HR to conduct training but doesn't give them a proper budget either. HR tries their best to work with what they can but the training is just too incosistent because of these factors to be effective.
 {}
 Your group got the HR Training ending. Everyone wants training but no one want to give the time, money, or effort...sigh...typical.
@@ -156,7 +156,7 @@ Your group got the HR Training ending. Everyone wants training but no one want t
 [[Return to Start ->The Sticky Note]]
 
 
-:: HR Unaware {"position":"2150,1250","size":"100,100"}
+:: HR Unaware {"position":"2175,2275","size":"100,100"}
 The intern changes their password for the company account and tells absolutely no one about the incident of the missing sticky note and their friend with the red hat. HR was never alerted about the policy breach and the incident leaves many systemic issues unresolved.
 {}
 Your group got the HR Unaware ending, the poor HR departmant is going to be SCRAMBLING if they ever find out about this, oh boy let the chaos ensue.
@@ -164,7 +164,7 @@ Your group got the HR Unaware ending, the poor HR departmant is going to be SCRA
 [[Return to Start ->The Sticky Note]]
 
 
-:: Internal Team {"position":"2600,2200","size":"100,100"}
+:: Internal Team {"position":"4775,3025","size":"100,100"}
 Upper management decides that the best option for the investigation is let the internal legal and IT teams to take care of the situation. This was mostly decided to save money and the investigation isn't as trhough but it does get done.
 {}
 Your group got the Internal Team ending. The investigation was the best but hey at least it happened.
@@ -172,7 +172,7 @@ Your group got the Internal Team ending. The investigation was the best but hey 
 [[Return to Start ->The Sticky Note]]
 
 
-:: Investigate alert immeadiately {"position":"2400,1700","size":"100,100"}
+:: Investigate alert immeadiately {"position":"3400,2450","size":"100,100"}
 You decide that this is a pretty suspicious login as it comes from the new intern's account and interns are typically allowed to work from home. You look more close into the alert that confrims your suspicions.
 {}
 Now that you understand the alert, what do you do next?
@@ -183,19 +183,23 @@ Now that you understand the alert, what do you do next?
 
 
 
-:: Keep it, but do nothing {"position":"600,1200","size":"100,100"}
+:: Involve HR and conduct an investigation {"position":"900,1025","size":"100,100"}
+
+
+
+:: Keep it, but do nothing {"position":"300,1200","size":"100,100"}
 ''Intern (Player 2) Start''
 {}
 
 
 
-:: Leave it {"position":"800,200","size":"100,100"}
+:: Leave it {"position":"2400,100","size":"100,100"}
 You choose to do nothing about the note leaving it where it is and not mentioning it to your friend.
 
 
 
 
-:: Legal Liability {"position":"2800,2100","size":"100,100"}
+:: Legal Liability {"position":"4975,2925","size":"100,100"}
 The upper management decide to simply downplay the breach as an everyday occurence. With upper management, the IT department moves to try and quietly contain the situation. Unfortunately the spotty cover-up job is discovered and legal liability for the company increases.
 {}
 Your group got the Legal Liability ending. Maybe an elobrate cover-up story for an account breach wasn't the greatest idea after all, who knew.
@@ -203,36 +207,25 @@ Your group got the Legal Liability ending. Maybe an elobrate cover-up story for 
 [[Return to Start ->The Sticky Note]]
 
 
-:: Log out and inform your friend {"position":"1850,1000","size":"100,100"}
+:: Log out and inform your friend {"position":"1575,2025","size":"100,100"}
 After logging in and staring at the internal employee dashboard for a bit, guilty starts to overcome you as you realize this probably wasn't a great idea after all since your friend could get in major trouble because of your childish shenigans. You quickly login out and grab your phone in order to contact your friend and tell what you have done.
 {}
 [[Player 2 Start ->The Call]] 
 
 
-:: Mark alert low priority {"position":"2050,1375","size":"100,100"}
+:: Mark alert low priority {"position":"3050,2125","size":"100,100"}
 You decide that this alert probably isn't that serious and mark it as low priority and go back to check some of the other alerts that came in around the same time.
 {}
 [[Slow Response]]
 
 
-:: Monitor account further {"position":"2200,1800","size":"100,100"}
+:: Monitor account further {"position":"3200,2550","size":"100,100"}
 You decide that the intern or whoever is using the account has actually done anything bad yet so you choose just to keep an eye on for now and are ready to take any accounts neccesary in the event something does happen.
 {}
 [[Data Loss]]
 
 
-:: Player 2 Start {"position":"1000,500","size":"100,100"}
-You come back and sit down at your desk and noticed that in addition to your friend being gone, your sticky note with your passwords written down is missing as well.
-{}
-What do you do?
-{}
-[[Report the theft to the IT Department]]
-[[Change your password immeadiately]]
-[[Call your friend and ask about the note]]
-[[Do nothing (It will all work out...probably)]]
-
-
-:: Probation {"position":"2000,2350","size":"100,100"}
+:: Probation {"position":"3000,3100","size":"100,100"}
 ''Intern (Player 2) Start''
 {}
 You are peacefully working when your supervisor comes and informs you that you have been placed on probation by someone higher up. This is pretty crappy news as you were enjoying your work day up until this point.
@@ -244,7 +237,7 @@ How do you react to this news?
 [[Leak policy voliations to the media outlets ->Retalition]]
 
 
-:: Publie Memo {"position":"1950,1925","size":"100,100"}
+:: Publie Memo {"position":"2950,2675","size":"100,100"}
 Upper management decides that the intern's friend is going to used as an example for anyone that thinks they are above the company's policy. Upper management sends out a strongly worded email that gives the other employees a pretty basic rundown of the situation that recently occur with one clear message echoed throughout: policy violations like this will not be tolerated.
 {}
 Your group got the Public Memo ending. Company memo emails are scarier but security violations are even scarier.
@@ -252,17 +245,13 @@ Your group got the Public Memo ending. Company memo emails are scarier but secur
 [[Return to Start ->The Sticky Note]]
 
 
-:: Report the incident to you supervisor {"position":"1850,1250","size":"100,100"}
+:: Report the incident to you supervisor {"position":"1875,2275","size":"100,100"}
 You decide to come clean and tell your supervisor what happened. You explain the whole situation with your password note, your friend stealing the note. You are embrassed but you feel good that you did the right thing and let someone above you know about the issue.
 {}
 [[The Big Bad IT Department]]
 
 
-:: Report the theft to the IT Department {"position":"1400,600","size":"100,100"}
-You immeadiately freak out, due to not wanting to get fired, you contact the IT department to report the problem of the missing note.
-
-
-:: Retalition {"position":"1900,2500","size":"100,100"}
+:: Retalition {"position":"2900,3250","size":"100,100"}
 HOW DARE THEY!!! The intern came clean about what happened with the whole sticky note and their firend stealing it, and even about them logging into their work account.
 {}
 The intern decides if they are going down then the company is coming down with them. They leak some of the company's policy violations to local and national press. THe news makes headlines damaging the company's reputation, losing them many loyal and new customers.
@@ -272,7 +261,7 @@ Your group got the Retalition ending. What a brillant blaze of glory, hopefully 
 [[Return to Start ->The Sticky Note]]
 
 
-:: Review security fooatge & interview the involved parties {"position":"1975,1625","size":"100,100"}
+:: Review security fooatge & interview the involved parties {"position":"2975,2375","size":"100,100"}
 ''Upper Management (Player 4) Start''
 {}
 After reviewing the security footage, the IT department is able to determine that the intern was in fact not lying and their friend was caught on their 4k security cameras taking the note off of intern's laptop. Upon hearing this you have both parties brought in for questioning and after you ban the intern's friend from ever stepping foot in the office ever again. The IT and HR departments now want to know how they should proceed with this incident and look at you for orders.
@@ -284,7 +273,7 @@ How do you choose to handle the situation?
 [[Update physical security policies ->Security Update]]
 
 
-:: Security Update {"position":"1975,2125","size":"100,100"}
+:: Security Update {"position":"2975,2875","size":"100,100"}
 Upper management after a bit of contemplate decides that the best course of action is to update physical security and visitor protocols to ensure that no more unwanted guests find their way into sensitive areas again.
 {}
 Your group got the Security Update ending. Halt right there, only elite employees past this, which includes you, great work!
@@ -292,7 +281,19 @@ Your group got the Security Update ending. Halt right there, only elite employee
 [[Return to Start ->The Sticky Note]]
 
 
-:: Silent HR {"position":"2100,2000","size":"100,100"}
+:: Send the picture to the Intern --> {"position":"675,600","size":"100,100"}
+
+
+
+:: Share the picture with your friends {"position":"900,700","size":"100,100"}
+You decide that to mkae a joke at your intern friend's expensive to your 11 person groupchat by sending the photo of the password sticky note with the caption "Intern can't remember anything, they had to write their password on a sticky note lol". Everyone thinks that this is hilarious and comments back many different things.
+{}
+Unbeknown to you, one of your friends, Zane, takes this opportunity to remix your original photo as a meme and posts it on social media for the whole world to see.
+{}
+[[The Meme Post]]
+
+
+:: Silent HR {"position":"4275,2825","size":"100,100"}
 Upper management doesn't want the word about this incident getting out to the rest of the staff and so in tandem with the HR department resolves the incident as quietly as possible. No one ever learns anything for the lesson that this situation presents.
 {}
 Your group got the Silent HR ending. Keep this on the hush, hush alright and there will be a nice ice cream sundae and raise in it for you, comprende?
@@ -300,7 +301,7 @@ Your group got the Silent HR ending. Keep this on the hush, hush alright and the
 [[Return to Start ->The Sticky Note]]
 
 
-:: Slow Response {"position":"3175,1375","size":"100,100"}
+:: Slow Response {"position":"6175,2975","size":"100,100"}
 The IT Department marks the alert as low priority.
 {}
 Due to this negligence, the breah continues unnoticed, allowing more damages to inccur. Upon finding out about this upper management is beyond frustrated by the delay and begins to question why they have an IT department to begin with.
@@ -310,8 +311,14 @@ Your group got the Slow Response Ending. Better stop all that phone scrolling an
 [[Go back to the Start ->The Sticky Note]] 
 
 
-:: Take a picture of it {"position":"800,700","size":"100,100"}
-
+:: Take a picture of it {"position":"2600,100","size":"100,100"}
+Intrested in the what password might do, but not wanting to raise suspicion from your friend you take out your phone and snap a quick little photo of the sticky note. You revel in the picture of our truimph.
+{}
+What will you do next?
+{}
+[[Send the picture to the Intern -->]]
+[[Share the picture with your friends]]
+[[Delete it]]
 
 
 :: Take it {"position":"600,1000","size":"100,100"}
@@ -324,7 +331,7 @@ What do you do with the super secure password sticky note?
 [[Keep it, but do nothing]]
 
 
-:: The Big Bad IT Department {"position":"1850,1500","size":"100,100"}
+:: The Big Bad IT Department {"position":"2850,2250","size":"100,100"}
 ''IT Department (Player 3) Start''
 {}
 One of the supervisors for the interns comes forward that one of the interns had an incident and their password sticky note (who even does that) stolen off of their laptop. They explain that the person who stole the note logged into the internal comapny dashboard but didn't do anything and came clean about the whole to intern who in turn told their supervisor. 
@@ -336,7 +343,7 @@ How do you respond to this information about this password breach?
 [[Assume the intern is lying & enforce disciplinary actions->Probation]]
 
 
-:: The Call {"position":"1850,1125","size":"100,100"}
+:: The Call {"position":"1875,2150","size":"100,100"}
 ''Intern (Player 2) Start''
 {}
 You are hanging out at home when you recieve a call from your friend with the red hat that visited your office earlier that day. You pick up and they proceed to tell you that they stole your super important sticky note with your login credentials written on. You are appealed and hurt that your friend did this to you but forgive your friend since they had the heart to come clean.
@@ -350,7 +357,19 @@ What do you do?
 [[Blame your friend]]
 
 
-:: The Sticky Note {"position":"2775,575","size":"100,100"}
+:: The Meme Post {"position":"900,900","size":"100,100"}
+''IT Department (Player 3) Start''
+{}
+You are peacefully doing your job in your office when you get an email from the new intern, who says that there has been a bit of an incident as one of their friends took a picture of their password and another took that picture and made it into quick growing meme. At first you are absolutely shocked as you seen that meme while scrolling on your lunch break but quickly realize that you have to take action.
+{}
+What do you do?
+{}
+[[Involve HR and conduct an investigation]]
+[[Contact the intern, and re-train them]]
+[[Create a company-wide bulletin ->General Warning]]
+
+
+:: The Sticky Note {"position":"4100,200","size":"100,100"}
 ''Friend with Red Hat (Player 1) Start''
 {}
 Your friend just got an awesome new internship at a security company and is showing you around their new workplace. While showing you their desk you notice a sticky note attached to their computer with what looks to be a password written on it.
@@ -364,8 +383,7 @@ What do you do?
 [[Take a picture of it]]
 [[Leave it]]
 [[Take it]]
-[[Confront your intern friend]]
-[[
+
 
 
 :: The Suspicious Alert {"position":"500,1400","size":"100,100"}
@@ -377,10 +395,10 @@ How do you respond to this new alert?
 {}
 [[Investigate alert immeadiately]]
 [[Mark alert low priority]]
-[[Dismiss alert]]
+[[Dismiss alert ->Undetected Breach]]
 
 
-:: Training Budget {"position":"1850,1750","size":"100,100"}
+:: Training Budget {"position":"2850,2500","size":"100,100"}
 Upper Management looks over the IT department's proposal and is convinced that this is the best course of action going forward to help mitigate situations like the intern's from happening again. A budget is approved and the training program created and implemented, teaching employees all the best practices for keeping the company safe.
 {}
 Your group got the Training Budget ending. You get training, you get training, everyone gets training.
@@ -388,7 +406,7 @@ Your group got the Training Budget ending. You get training, you get training, e
 [[Return to Start ->The Sticky Note]]
 
 
-:: Undetected Breach {"position":"900,1700","size":"100,100"}
+:: Undetected Breach {"position":"800,1600","size":"100,100"}
 The IT department marks the login alert as a false positive. This allows the unauthoritized access to go undetected resulting in the user (Player 1) to wreck mayhem on the company's system and leading to a serious data breach.
 {}
 Your group got the Undetected Breach ending. Always investigate those suspicious alerts, you never know.
@@ -409,7 +427,7 @@ What do you with your access to the system?
 [[Log out and inform your friend]]
 
 
-:: What does IT want? {"position":"2600,1800","size":"100,100"}
+:: What does IT want? {"position":"3600,2550","size":"100,100"}
 ''Upper Management (Player 4) Start''
 {}
 You recieve a message from one of the members of the IT department team. You open the message and they inform you about a suspicious account login from the new intern's account and that they have locked the account for now. They ask you where they should take the incident from here.
