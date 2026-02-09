@@ -9,3 +9,47 @@
 	display: block;
   	text-align: center;
 }
+
+body {
+  background-image: url("https://raw.githubusercontent.com/goldiec-dev/CDS_Twine_TableTop/main/images/cyber2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+}
+tw-story {
+  background: rgba(0,0,0,0.85);
+  padding: 40px;
+  border-radius: 10px;
+  margin: auto;
+  max-width: 1000px;
+}
+
+body:has(tw-passage[tags~="Redhat"]) {
+  background-image: url("https://raw.githubusercontent.com/goldiec-dev/CDS_Twine_TableTop/main/images/red_hat6.png");
+  linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body:has(tw-passage[tags~="Intern"]) {
+  background-image: url("https://raw.githubusercontent.com/goldiec-dev/CDS_Twine_TableTop/main/images/office1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body:has(tw-passage[tags~="IT"]) {
+  background-image: url("https://raw.githubusercontent.com/goldiec-dev/CDS_Twine_TableTop/main/images/server_room.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body:has(tw-passage[tags~="UM"]) {
+  background-image: url("https://raw.githubusercontent.com/goldiec-dev/CDS_Twine_TableTop/main/images/upper_management1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
